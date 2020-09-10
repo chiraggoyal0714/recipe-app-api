@@ -1,7 +1,6 @@
 [flake8]
-excule =
-    migrations
-    __pycache__,
-    manage.py,
-    settigs.py
-
+exclude =
+  migrations,
+  __pycache__,
+  manage.py,
+  settings.py
